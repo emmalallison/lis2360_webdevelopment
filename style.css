@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document created by Emma Allison, Spring 2019*/
+
+body {
+	font-family: helvetica, arial;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #050505;
+	background-color: #BE80C4;
+	padding: 0 50px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #050505;
+}
+h1 {
+	font-size: 20px;
+	padding: 4px 0;
+	font-variant: normal;
+	letter-spacing: .3em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: normal;
+	letter-spacing: 0.1em;
+	background-color: #ABF6F5;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #050505;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #050505;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #050505;
+	text-decoration: none;
+}
+a:hover {
+	color: #ABF6F5;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #050505 1px;
+}
+td {
+	padding: 6px;
+	border: solid #050505 1px;
+}
+th {
+	font-weight: bold;
+	text-align: center;
+	padding: 6px;
+	border: solid #050505 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: double #ABF6F5 10px;
+}
+
+img {
+	border: double #ABF6F5 10px;
+
+}
+
+iframe {
+	border: double #ABF6F5 10px;
+	padding: 8px;
+	margin: 8px;
+}
